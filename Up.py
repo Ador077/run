@@ -137,7 +137,7 @@ xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').re
 bxd = ""
 bumper = "FIRE=="+id+bxd+xp
 FIRE   = "ACTION-FIRE"
-myweb2 = requests.get(f"https://raw.githubusercontent.com/{KHALID}/KHALID-404/main/apprval.txt").text
+
 logo1 = ("""\x1b[1;94m═════════════════════════════════════════════════════╗
 \x1b[1;94m║                                                     ║
 \x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m███    ██       \x1b[1;91m███████ \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m███████\x1b[1;94m ║
